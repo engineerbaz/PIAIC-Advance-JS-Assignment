@@ -8,9 +8,8 @@ A JavaScript variable is simply a name of storage location. There are two types 
 ## Example
 
 
-// --------------------------
-// Example 1
-
+#### Example 1
+```js
 let x = 1;
 
 if (x === 1) {
@@ -23,11 +22,10 @@ if (x === 1) {
 console.log(x);
 // expected output: 1
 
+```
 
-
-// --------------------------
-// Example 2
-
+#### Example 2
+```
 let x = 1;
 
 if (x === 1) {
@@ -39,22 +37,20 @@ if (x === 1) {
 
 console.log(x);
 // expected output: 1
+```
 
 
-
-// --------------------------
-// Example 3
-
+#### Example 3
+```
 var x = 'global';
 let y = 'global';
 console.log(this.x); // "global"
 console.log(this.y); // undefined
+```
 
-
-// --------------------------
-// Example 4
-### Need to discuss with teacher
-
+#### Example 4
+##### Need to discuss with teacher
+```js
 var Thing;
 
 {
@@ -91,20 +87,19 @@ thing.showPublic();
 
 thing.showPrivate();
 // 1
+```
+#### Example 5
 
-
-// --------------------------
-// Example 5
-
-
+```
 if (x) {
     let foo;
     let foo; // SyntaxError thrown.
   }
+```
 
-// --------------------------
-// Example 6
+#### Example 6
 
+```
 let x = 1;
 switch(x) {
   case 0:
@@ -115,11 +110,10 @@ switch(x) {
     let foo; // SyntaxError for redeclaration.
     break;
 }
+```
+#### Example 7
 
-
-// --------------------------
-// Example 7
-
+````
 let x = 1;
 
 switch(x) {
@@ -132,33 +126,29 @@ switch(x) {
     break;
   }
 }
-
-
-// --------------------------
-// Example 8
-
+````
+#### Example 8
+````
 function do_something() {
     console.log(bar); // undefined
     console.log(foo); // ReferenceError
     var bar = 1;
     let foo = 2;
   }
+````
 
+#### Example 9
 
-// --------------------------
-// Example 9
-
+```
 // prints out 'undefined'
 console.log(typeof undeclaredVariable);
 
 // results in a 'ReferenceError'
 console.log(typeof i);
 let i = 10;
-
-
-// --------------------------
-// Example 10
-
+```
+#### Example 10
+```
 function test(){
     var foo = 33;
     if(foo) {
@@ -166,12 +156,11 @@ function test(){
     }
  }
  test();
+```
+#### Example 11
+##### Need to discuss with teacher
 
-
-// --------------------------
-// Example 11
-### Need to discuss with teacher
-
+```js
 function go(n) {
     // n here is defined!
     console.log(n); // Object {a: [1,2,3]}
@@ -182,12 +171,11 @@ function go(n) {
   }
   
   go({a: [1, 2, 3]});
+```
 
+#### Example 12
 
-// --------------------------
-// Example 12
-
-
+```
 var a = 1;
 var b = 2;
 
@@ -201,13 +189,13 @@ if (a === 1) {
 
 console.log(a); // 11
 console.log(b); // 2
+````
 
-
-// --------------------------
-// Example 13
-
+#### Example 13
+```
 let x = 1;
 
 {
   var x = 2; // SyntaxError for re-declaration
 }
+```

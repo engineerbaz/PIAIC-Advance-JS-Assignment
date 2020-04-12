@@ -3,31 +3,26 @@
 Scope is the accessibility of variables, functions, and objects in some particular part of your code during runtime.
 
 ## Examples
-// ----------------------------
-//  example : 1
-
-
+### Example : 1
+```js
 var userName = "Ameen ALam";
-
 function modifyUserName() {
-        userName = "Daniyal Nagori";
+        userName = "Daniyal Nagori"; 
     };
 
 function showUserName() {
         alert(userName);
     };
 
-alert(userName); // display Ameen Alam
+alert(userName); // Output =  Ameen Alam
 
 modifyUserName();
 showUserName();// display Daniyal Nagori
+``` 
+ 
+### Example : 2
 
-
-
-// --------------------------
-//  example : 2
-
-/* 
+```js 
 function createUserName() {
     userName = "Ameen Alam";
 }
@@ -42,19 +37,18 @@ function showUserName() {
 }
 
 createUserName();
-showUserName(); // Ameen Alam 
+showUserName(); // Output = Ameen Alam 
 
 modifyUserName();
-showUserName(); // Daniyal Nagori 
+showUserName(); // Output = Daniyal Nagori 
 
- */
-
-
+ ```
 
 
-// --------------------------
-//  example : 3
-/* 
+
+### Example : 3
+
+```js
 
 function createUserName() {
     var userName = "Ameen Alam";
@@ -65,19 +59,20 @@ function showUserName() {
 }
 
 createUserName();
-showUserName(); // throws error: userName is not defined
+showUserName(); // Uncaught ReferenceError: userName is not defined
+    // at showUserName (<anonymous>:6:11)
+    // at <anonymous>:10:1
 
- */
-
-
-
-
-
-// --------------------------
-//  example : 4
+```
 
 
-/* 
+
+
+
+### Example : 4
+
+
+```js
 var userName = "Ameen Alam";
 
 function ShowUserName()
@@ -91,15 +86,13 @@ ShowUserName();
 
 alert(userName); // Ameen Alam
 
- */
+```
 
 
 
-// --------------------------
-//  example : 5
+### Example : 5
 
-
-/* 
+```js
 function NoBlockLevelScope(){
     
     if (1 > 0)
@@ -111,16 +104,14 @@ function NoBlockLevelScope(){
     alert(myVar);
 }
 
-NoBlockLevelScope();
- */
+NoBlockLevelScope(); // Ouput = 22 
+```
 
 
 
-// --------------------------
-//  example : 6
+### Example : 6
 
-
-/* 
+```js 
 var age = 100;
 function go(){
  var age = 200;
@@ -134,15 +125,12 @@ console.log(age);
 // OUTPUT  200 
 // OUTPUT  black 
 // OUTPUT  100 
- */
+```
 
 
 
-// --------------------------
-//  example : 7
-
-
-/* 
+### Example : 7
+```js
 
 if (true) {
    // userName is in the global scope because of the 'var' keyword
@@ -156,11 +144,9 @@ if (true) {
    console.log(skills); // output 'JavaScript'
 }
 console.log(userName); // output 'Ameen Alam'
-console.log(age); // Uncaught ReferenceError: age is not defined
-console.log(skills); // Uncaught ReferenceError: skills is not defined
-
-
-*/
+console.log(age); // Uncaught ReferenceError: age is not defined // Becase let is block level  
+console.log(skills); // Uncaught ReferenceError: skills is not defined // const is also block level
+```
 
 
 // --------------------------

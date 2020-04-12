@@ -49,7 +49,7 @@ console.log(this.y); // undefined
 ```
 
 #### Example 4
-##### Need to discuss with teacher
+#####  -----------> Need to discuss with teacher <-----------
 ```js
 var Thing;
 
@@ -158,7 +158,8 @@ function test(){
  test();
 ```
 #### Example 11
-##### Need to discuss with teacher
+
+#####  -----------> Need to discuss with teacher <-----------
 
 ```js
 function go(n) {

@@ -13,7 +13,7 @@ Assignment of Adv JavaScript of Q3 of PIAIC
   1. [String](String.md) ..  DONE
   2. [Template-Literals](Template.md) .. DONE
   3. [Scope](Scope.md) .. DONE
-  4. [Variables](Variables.md)
+  4. [Variables](Variables.md) .. DONE
   5. [DOM](DOM.md)
   6. [EVENTS](EVENTS.md)
   7. [Object](Object.md)

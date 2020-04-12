@@ -11,13 +11,13 @@ Assignment of Adv JavaScript of Q3 of PIAIC
  
 #### Contents:
   1. [String](String.md)
-  2. [Template-Literals](Template-Literals/README.md)
-  3. [Scope](Scope/README.md)
-  4. [Variables](Variables/README.md)
-  5. [DOM](DOM/README.md)
-  6. [EVENTS](EVENTS/README.md)
-  7. [Object](Object/README.md)
-  8. [Closures](Closures/README.md)
+  2. [Template-Literals](Template.md)
+  3. [Scope](Scope.md)
+  4. [Variables](Variables.md)
+  5. [DOM](DOM.md)
+  6. [EVENTS](EVENTS.md)
+  7. [Object](Object.md)
+  8. [Closures](Closures.md)
   <!-- 10. [](/README.md) -->
   <!-- 11. [](/README.md) -->
   <!-- 12. [](/README.md) -->

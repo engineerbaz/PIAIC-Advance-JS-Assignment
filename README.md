@@ -10,8 +10,8 @@ Assignment of Adv JavaScript of Q3 of PIAIC
 
  
 #### Contents:
-  1. [String](String.md)
-  2. [Template-Literals](Template.md)
+  1. [String](String.md) ..  DONE
+  2. [Template-Literals](Template.md) .. DONE
   3. [Scope](Scope.md)
   4. [Variables](Variables.md)
   5. [DOM](DOM.md)
